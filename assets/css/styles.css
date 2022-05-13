@@ -3,7 +3,8 @@ body {
     text-align: center;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     font-weight: 900;
@@ -18,7 +19,7 @@ h1, h2 {
 /* Sections */
 
 .colored-section {
-    background-color: #0AA1DD;
+    background-color: #065b7d;
     color: #fff;
 }
 
@@ -35,25 +36,38 @@ h1, h2 {
     font-weight: 400;
 }
 
-.logo-img {
-    margin-right: 1.5rem;
-}
 
 .nav-item {
-    padding: 0 1rem; 
+    padding: 0 1rem;
+    background-color: #065b7d;
+
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 1.2rem;
+
 }
+
+.nav-link:hover {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    height: 6rem;
+    background-color: #065b7d;
+    padding: 0rem 2rem;
+}
+
+
 
 /* Slider */
 
 #slider {
-    background-color: #112B3C;
+    background-color: #000000;
     color: #fff;
+    padding-top: 2rem;
 }
 
 .carousel-item {
@@ -61,8 +75,15 @@ h1, h2 {
 }
 
 .slider-text {
-    font-size: 3rem;  
+    font-size: 3rem;
     line-height: 1.5;
+}
+
+.slider-img img {
+    width: 50%;
+    min-width: 300px;
+    height: auto;
+    padding-bottom: 1rem;
 }
 
 /* Titles */
@@ -71,22 +92,46 @@ h1, h2 {
     padding: 8% 10%;
 }
 
+#titles img {
+    width: 100%;
+    min-width: 200px;
+    height: auto;
+}
+
 /* Pilllars */
 
 #pillars {
     padding: 8% 10%;
 }
 
+#pillars .row i:hover {
+    color: #112B3C;
+}
+
 /* Footer */
+
 
 #footer {
     padding: 8% 16%;
+    background-image: url("../imgs/footer.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.footer-text {
+    color: white;
 }
 
 .social-icon {
     padding: 0 1rem 1.5rem;
+    color: white;
+
 }
 
 .social-icon:hover {
-    color:#0AA1DD
+    color: #0AA1DD;
 }
