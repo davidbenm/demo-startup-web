@@ -34,6 +34,7 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     font-weight: 400;
+    padding-left: 2rem;
 }
 
 
@@ -57,8 +58,11 @@ h2 {
 .navbar {
     height: 6rem;
     background-color: #065b7d;
-    padding: 0rem 2rem;
+    width: 100%;
+    
 }
+
+
 
 
 
@@ -80,7 +84,7 @@ h2 {
 }
 
 .slider-img img {
-    width: 50%;
+    width: 75%;
     min-width: 300px;
     height: auto;
     padding-bottom: 1rem;
