@@ -62,10 +62,6 @@ h2 {
 
 }
 
-
-
-
-
 /* Slider */
 
 #slider {
@@ -115,7 +111,6 @@ h2 {
 
 /* Footer */
 
-
 #footer {
     padding: 8% 16%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/footer.jpg");
@@ -138,5 +133,5 @@ h2 {
 }
 
 .social-icon:hover {
-    color: #0AA1DD;
+    color: #065b7d;
 }
